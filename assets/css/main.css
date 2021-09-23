@@ -70,14 +70,14 @@
   color: #333;
 }
 
-.header .contact__link {
+.header .link {
   width: 100px;
   display: inline-block;
   height: 30px;
   position: relative;
 }
 
-.header .contact__link svg {
+.header .link svg {
   position: absolute;
   right: 0;
   top: -5px;
@@ -87,7 +87,7 @@
   transition: 0.5s;
 }
 
-.header .contact__link svg:hover {
+.header .link svg:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
