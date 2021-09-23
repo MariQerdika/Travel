@@ -1,6 +1,11 @@
 .video {
   position: absolute;
+  top: 0;
   z-index: -1;
+
+  .content__video {
+    width: 100%;
+  }
 
   &__overflow {
     position: absolute;
@@ -13,6 +18,55 @@
 }
 .container {
   max-width: 1320px;
+  width: 100%;
   margin: 0 auto;
-  background-color: aquamarine;
+  padding: 0 15px;
+}
+.header {
+  background-color: #ffffff57;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  &__logo {
+    height: 70px;
+  }
+
+  &__nav {
+    margin-left: auto;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+  }
+  &__contact {
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    position: relative;
+
+    svg {
+      position: absolute;
+      right: 0;
+      top: -5px;
+      width: 50px;
+      height: 50px;
+      transition: 0.5s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
 }
