@@ -47,6 +47,7 @@
 
 .header__logo {
   height: 70px;
+  width: 70px;
 }
 
 .header__nav {
@@ -69,14 +70,14 @@
   color: #333;
 }
 
-.header__contact {
+.header .contact__link {
   width: 100px;
   display: inline-block;
   height: 30px;
   position: relative;
 }
 
-.header__contact svg {
+.header .contact__link svg {
   position: absolute;
   right: 0;
   top: -5px;
@@ -86,7 +87,7 @@
   transition: 0.5s;
 }
 
-.header__contact svg:hover {
+.header .contact__link svg:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
