@@ -70,14 +70,14 @@
   color: #333;
 }
 
-.header__link--last {
+.header .last {
   width: 100px;
   display: inline-block;
   height: 30px;
   position: relative;
 }
 
-.header__link--last svg {
+.header .last svg {
   position: absolute;
   right: 0;
   top: -5px;
@@ -87,9 +87,10 @@
   transition: 0.5s;
 }
 
-.header__link--last svg:hover {
+.header .last svg:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+  cursor: pointer;
 }
 
 .header__link {
