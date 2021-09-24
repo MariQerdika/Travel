@@ -1,0 +1,18 @@
+.video {
+  position: absolute;
+  z-index: -1;
+
+  &__overflow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(68, 0, 255, 0.199);
+  }
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
