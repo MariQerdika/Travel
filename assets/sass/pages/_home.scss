@@ -16,12 +16,7 @@
     background-color: rgba(68, 0, 255, 0.199);
   }
 }
-.container {
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+
 .header {
   background-color: #ffffff57;
   display: flex;
@@ -44,12 +39,14 @@
   }
 
   &__link {
+    font-size: 14px;
     display: inline-block;
     padding: 10px 20px;
     margin: 0 5px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #333;
+    color: #542a5a;
+    font-family: "Roboto-medium";
   }
   .last {
     width: 100px;
