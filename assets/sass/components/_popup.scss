@@ -1,0 +1,19 @@
+#popup {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  visibility: hidden;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transition: 1s;
+  z-index: -1;
+  height: 0px;
+}
+
+#popup:target {
+  visibility: visible;
+  position: absolute;
+  top: 30%;
+  height: 200px;
+}

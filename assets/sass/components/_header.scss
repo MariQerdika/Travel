@@ -10,6 +10,7 @@
   &__logo {
     height: 70px;
     width: 70px;
+    animation: logo 1s infinite linear;
   }
 
   &__nav {
@@ -52,6 +53,7 @@
     display: inline-block;
     height: 30px;
     position: relative;
+    transition: 0.5;
     @media (max-width: 991.98px) {
       display: none;
     }
